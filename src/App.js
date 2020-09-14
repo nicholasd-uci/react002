@@ -1,11 +1,18 @@
-import React from 'react';
-// removed a line here
-// removed a line here
+import React from 'react'
+import Card from './components/Card'
+import Form from './components/Form'
+import Jumbotron from './components/Jumbotron'
 
-function App() {
+const App = () => {
   return (
-    // Removed the entire section that was auto populated here //
-  );
+<>
+    <Jumbotron /> 
+    <Card />
+    <Form /> 
+    
+
+</>
+  )
 }
 
-export default App;
+export default App
